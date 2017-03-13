@@ -48,11 +48,11 @@
 			<artifactId>mybatis</artifactId>
 			<version>3.4.2</version>
 		</dependency>
-		<!-- tomcat -->
+		<!-- tomcat 
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-jdbc</artifactId>
-		</dependency>
+		</dependency>-->
 		<!-- mysql -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -68,7 +68,7 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.4</version>
+			<version>1.2.28</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
