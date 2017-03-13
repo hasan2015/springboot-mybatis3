@@ -29,6 +29,6 @@ public class SwaggerConfig
         return  new SwaggerSpringMvcPlugin(this.springSwaggerConfig)
                 .apiInfo(new ApiInfo("api", "desc", null, null, null, null))
                 .useDefaultResponseMessages(false)
-                .includePatterns("/users.*");
+                .includePatterns("/*.*");
     }
 }
